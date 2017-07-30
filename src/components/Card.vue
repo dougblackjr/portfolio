@@ -1,5 +1,8 @@
 <template>
-  <div class="card" :style="{ backgroundImage: `url(${imgSrc})` }">
+  <div class="card">
+  	<a class="card-link" v-link="{ name: 'Project', params: { projectId: i } }">
+  		<img v-bind:src="imgSrc">
+  	</a>
   </div>
 </template>
 
@@ -18,23 +21,33 @@ export default {
 <!-- Styles -->
 <style lang="scss">
 // Set breakpoints
-$tablet-up: 600px;
+$tablet-up: 670px;
 $tablet-landscape-up: 900px;
 $desktop-up: 1200px;
 
 .card {
+
 	width: 90%;
 	height: 200px;
-	background-size: cover;
-	padding: 2rem;
-	margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+	margin: 2rem;
+
+	img {
+	    flex-shrink: 0;
+	    max-width: 100%;
+	    max-height: 100%
+	}
 
 	@media only screen and (min-width: $tablet-up) {
-		width: 45%;
+		width: 40%;
+
+		img {
+			margin-bottom: 3rem;
+		}
 	}
 
-	@media only screen and (min-width: $desktop-up) {
-		width: 30%
-	}
 }
 </style>
