@@ -1,0 +1,34 @@
+{
+  "aces": {
+    "name": "Aces Home Improvement",
+    "url": "aceshomeimprovementllc.com",
+    "image": "aces.png",
+    "thumb": "",
+    "mobileimage": "aces_mobile.png",
+    "description": "Home improvement site, simple contact form"
+  },
+  "dougblackjr": {
+    "name": "Doug Black",
+    "url": "dougblackjr.com",
+    "image": "dougblackjr.png",
+    "thumb": "",
+    "mobileimage": "dougblackjr_mobile.png",
+    "description": ""
+  },
+  "ngu": {
+    "name": "Never Give Up",
+    "url": "nevergiveuppa.com",
+    "image": "ngu.png",
+    "thumb": "",
+    "mobileimage": "ngu_mobile.png",
+    "description": ""
+  },
+  "joeritchie": {
+    "name": "Joe Ritchie General Contractor",
+    "url": "joeritchiegeneralcontractor.net",
+    "image": "joe.png",
+    "thumb": "",
+    "mobileimage": "",
+    "description": ""
+  }
+}
