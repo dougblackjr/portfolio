@@ -1,23 +1,40 @@
 <template>
-	<div class="card" :style="{ backgroundImage: `url(${imgSrc})` }">
-		<a class="card--link" v-link="">
-			<h3 class="card--title">{{ project.name}}</h3>
-		</a>
-	</div>
+  <div class="card" :style="{ backgroundImage: `url(${imgSrc})` }">
+  </div>
 </template>
 
+<!-- JS -->
 <script>
-
 export default {
+  props: ['project'],
+  data () {
+    return {
+      imgSrc: require(`../assets/sites/${this.project.image}`)
+    }
+  }
+}
+</script>
 
-	props: ['project'],
+<!-- Styles -->
+<style lang="scss">
+// Set breakpoints
+$tablet-up: 600px;
+$tablet-landscape-up: 900px;
+$desktop-up: 1200px;
 
-	data() {
-		return {
-			imgSrc: require('../sites/${this.project.thumb}')
-		}
+.card {
+	width: 90%;
+	height: 200px;
+	background-size: cover;
+	padding: 2rem;
+	margin: 2rem 0;
+
+	@media only screen and (min-width: $tablet-up) {
+		width: 45%;
 	}
 
+	@media only screen and (min-width: $desktop-up) {
+		width: 30%
+	}
 }
-
-</script>
+</style>
