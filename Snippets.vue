@@ -1,0 +1,1 @@
+{ name: 'project_component', params: { projectId: project_id } }
