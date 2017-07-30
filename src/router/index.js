@@ -13,8 +13,7 @@ export default new Router({
       component: Hello
     },
     {
-      path: '/project/:projectId',
-      name: 'Project',
+      path: '/:projectId',
       component: Project
     }
   ]

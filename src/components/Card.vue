@@ -1,15 +1,15 @@
 <template>
   <div class="card">
-  	<a class="card-link" v-link="{ name: 'Project', params: { projectId: i } }">
+    <router-link :to="{ path: '/project', query: { projectId: project_id } }">
   		<img v-bind:src="imgSrc">
-  	</a>
+  	</router-link>
   </div>
 </template>
 
 <!-- JS -->
 <script>
 export default {
-  props: ['project'],
+  props: ['project', 'project_id'],
   data () {
     return {
       imgSrc: require(`../assets/sites/${this.project.image}`)
@@ -29,10 +29,10 @@ $desktop-up: 1200px;
 
 	width: 90%;
 	height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 	margin: 2rem;
 
 	img {

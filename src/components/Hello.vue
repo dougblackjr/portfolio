@@ -11,7 +11,7 @@
       <p>I make machines serve their human masters, typically with web and mobile applications! Skilled in: PHP, ExpressionEngine, Laravel, Wordpress, Vue.js, Javascript, Ionic/Angular, and various others. If you have a problem, I can solve it.</p>
     </div>
     <div class="cards">
-      <card v-for='(site, i) in sites' :project="site"></card>
+      <card v-for='(site, i) in sites' :project="site" :project_id="i"></card>
     </div>
     <div class="cta">
       <h2>

@@ -5,6 +5,9 @@
     "image": "aces.png",
     "thumb": "",
     "mobileimage": "aces_mobile.png",
+    "keywords": "",
+    "features": [
+    ],
     "description": "Home improvement site, simple contact form"
   },
   "dougblackjr": {
@@ -13,6 +16,9 @@
     "image": "dougblackjr.png",
     "thumb": "",
     "mobileimage": "dougblackjr_mobile.png",
+    "keywords": "",
+    "features": [
+    ],
     "description": ""
   },
   "ngu": {
@@ -21,6 +27,9 @@
     "image": "ngu.png",
     "thumb": "",
     "mobileimage": "ngu_mobile.png",
+    "keywords": "",
+    "features": [
+    ],
     "description": ""
   },
   "joeritchie": {
@@ -29,6 +38,9 @@
     "image": "joe.png",
     "thumb": "",
     "mobileimage": "",
+    "keywords": "",
+    "features": [
+    ],
     "description": ""
   }
 }
