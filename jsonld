@@ -1,0 +1,27 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Philadelphia",
+    "addressRegion": "PA",
+    "postalCode": "19134"
+  },
+  "email": "mailto:dougblackjr@gmail.com",
+  "jobTitle": "Full Stack Web Development",
+  "name": "Doug Black Jr",
+  "birthPlace": "Philadelphia, PA",
+  "birthDate": "2017.02.09",
+  "gender": "male",
+  "telephone": "(215) 821-8417",
+  "url": "http://www.dougblackjr.com",
+  "sameAs" : [
+    "https://www.facebook.com/dougblackjr",
+    "https://www.linkedin.com/in/dougblackjr2",
+    "http://twitter.com/dougblackjr",
+    "http://instagram.com/dougblackjr",
+    "https://plus.google.com/+DougBlackjr"
+  ]
+}
+</script>
