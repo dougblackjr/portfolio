@@ -3,44 +3,40 @@
     "name": "Aces Home Improvement",
     "url": "aceshomeimprovementllc.com",
     "image": "aces.png",
-    "thumb": "",
     "mobileimage": "aces_mobile.png",
-    "keywords": "",
+    "keywords": "Grav, PHP, mobile-first, responsive",
     "features": [
     ],
-    "description": "Home improvement site, simple contact form"
+    "description": "Home improvement site, simple contact form, custom image gallery and admin backend"
   },
   "dougblackjr": {
     "name": "Doug Black",
     "url": "dougblackjr.com",
     "image": "dougblackjr.png",
-    "thumb": "",
     "mobileimage": "dougblackjr_mobile.png",
-    "keywords": "",
+    "keywords": "HTML5, side scroll, CSS3, mobile-first, responsive",
     "features": [
     ],
-    "description": ""
+    "description": "Custom site from scratch, simple contact form"
   },
   "ngu": {
     "name": "Never Give Up",
     "url": "nevergiveuppa.com",
     "image": "ngu.png",
-    "thumb": "",
     "mobileimage": "ngu_mobile.png",
-    "keywords": "",
+    "keywords": "HTML5, CSS3, mobile-first, responsive, video background",
     "features": [
     ],
-    "description": ""
+    "description": "Custom site from scratch, created video background"
   },
   "joeritchie": {
     "name": "Joe Ritchie General Contractor",
     "url": "joeritchiegeneralcontractor.net",
     "image": "joe.png",
-    "thumb": "",
-    "mobileimage": "",
-    "keywords": "",
+    "mobileimage": "joe2.png",
+    "keywords": "HTML5, CSS3, mobile-first, responsive, custom plugin",
     "features": [
     ],
-    "description": ""
+    "description": "Custom site from scratch, custom image gallery and contact form"
   }
 }

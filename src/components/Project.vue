@@ -115,6 +115,10 @@ $desktop-up: 1200px;
 
       &__mobileimage {
         width: 40%;
+
+        img {
+          // width: 100%;
+        }
       }
     }
 
