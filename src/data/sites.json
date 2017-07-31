@@ -16,7 +16,10 @@
     "name": "Doug Black",
     "url": "dougblackjr.com",
     "media": [
-      "dougblackjr.png"
+      "dougblackjr.png",
+      "dougblackjr2.png",
+      "dougblackjr3.png",
+      "dougblackjr4.png"
     ],
     "keywords": "HTML5, side scroll, CSS3, mobile-first, responsive",
     "problem": "I needed a landing page that told who I was, and showed what I could do with a keyboard!",
@@ -26,7 +29,10 @@
     "name": "Never Give Up",
     "url": "nevergiveuppa.com",
     "media": [
-      "ngu.png"
+      "ngu.png",
+      "ngu2.png",
+      "ngu3.png",
+      "ngu4.png"
     ],
     "keywords": "HTML5, CSS3, mobile-first, responsive, video background",
     "problem": "NGU's site was outdated, and reflected poorly on the important work this community group was doing. NGU didn't have a ton of money to spend.",
@@ -36,7 +42,11 @@
     "name": "Joe Ritchie General Contractor",
     "url": "joeritchiegeneralcontractor.net",
     "media": [
-      "joe.png"
+      "joe.png",
+      "joe2.png",
+      "joe3.png",
+      "joe4.png",
+      "joe5.png"
     ],
     "keywords": "HTML5, CSS3, mobile-first, responsive, custom plugin",
     "problem": "Joe's site was old, and ran off of an extremely outdated platform. The logo was 100px bitmap that needed to be redone so it would look good at any size.",
@@ -46,7 +56,11 @@
     "name": "Evangel Assembly of God",
     "url": "theevangelhope.com",
     "media": [
-      "evangel.png"
+      "evangel.png",
+      "evangel2.png",
+      "evangel3.png",
+      "evangel4.png",
+      "evangel5.png"
     ],
     "keywords": "Wordpress, custom theme, podcast, training",
     "problem": "This church had an old, static site that had not been updated in some time. The media took up a huge amount of space and cost way too much. They also needed something simple, so any person from their congregation could be trained to manage it as they deemed fit.",
@@ -56,7 +70,10 @@
     "name": "Nursery Alert",
     "url": "nurseryalert.net",
     "media": [
-      ""
+      "https://www.youtube.com/watch?v=RT2K572HghU",
+      "nurseryalert.png",
+      "nurseryalert2.png",
+      "nurseryalert3.png"
     ],
     "keywords": "mobile, app, iOS, Android, Kindle, Windows Phone, Ionic",
     "problem": "My wife and I visited a church, and their super expensive nursery beeper system failed twice. We simply asked: 'Why don't they just text us?'",
