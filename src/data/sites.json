@@ -38,5 +38,13 @@
     "features": [
     ],
     "description": "Custom site from scratch, custom image gallery and contact form"
+  },
+  "evangel": {
+    "name": "Evangel Assembly of God",
+    "url": "theevangelhope.com",
+    "image": "evangel.png",
+    "mobileimage": "evangelmobile.png",
+    "keywords": "Wordpress, custom theme, podcast, training",
+    "description": "Custom Wordpress site, custom theming, added podcast capabilities with recording and automatic audio editing. Trained staff to take over administration"
   }
 }
