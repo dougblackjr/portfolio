@@ -2,7 +2,7 @@
   <div class="project">
     <header class="project-header">
       <h1 class="project-header__name">{{ projectData.name }}</h1>
-      <a class="project-header__link" :href="projectData.url" target="_blank">{{ projectData.url}}</a>
+      <a class="project-header__link" :href="properLink(projectData.url)" target="_blank">{{ projectData.url}}</a>
       <h3 class="project-header__keywords">{{ projectData.keywords }}</h3>
       <p>{{ projectData.description }}</p>
     </header>
@@ -40,6 +40,9 @@ export default {
     getImage (name) {
       // return '../assets/sites/' + name
       return require('../assets/sites/' + name)
+    },
+    properLink (url) {
+      return 'http://' + url
     }
   }
 }
