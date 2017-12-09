@@ -12,7 +12,7 @@ export default {
   props: ['project', 'project_id'],
   data () {
     return {
-      imgSrc: require(`../assets/sites/${this.project.image}`)
+      imgSrc: require(`../assets/sites/${this.project.media[0]}`)
     }
   }
 }
@@ -38,7 +38,8 @@ $desktop-up: 1200px;
 	img {
 	    flex-shrink: 0;
 	    max-width: 100%;
-	    max-height: 100%
+	    max-height: 100%;
+      box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
 	}
 
 	@media only screen and (min-width: $tablet-up) {

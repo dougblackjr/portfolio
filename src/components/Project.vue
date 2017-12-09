@@ -3,16 +3,17 @@
     <header class="project-header">
       <h1 class="project-header__name">{{ projectData.name }}</h1>
       <a class="project-header__link" :href="properLink(projectData.url)" target="_blank">{{ projectData.url}}</a>
-      <h3 class="project-header__keywords">{{ projectData.keywords }}</h3>
-      <p>{{ projectData.description }}</p>
+      <p><strong>Problem: </strong>{{ projectData.problem }}</p>
+      <p><strong>Solution: </strong>{{ projectData.solution }}</p>
+      <p><small>{{ projectData.keywords }}</small></p>
     </header>
 
-    <section class="project-content">
-      <div class="project-content__desktopimage">
-        <img v-bind:src="getImage(projectData.image)">
+    <section class="project-content" id="project-content">
+      <div class="project-content__media" v-for="(url, i) in projectData.video">
+        <iframe v-bind:src="(url)" frameborder="0" type="text/html" width="400" height="200"></iframe>
       </div>
-      <div class="project-content__mobileimage">
-        <img v-bind:src="getImage(projectData.mobileimage)">
+      <div class="project-content__media" v-for="(image, i) in projectData.media">
+        <img v-bind:src="getImage(image)" class="project-content__media">
       </div>
     </section>
 
@@ -84,6 +85,10 @@ $desktop-up: 1200px;
     &__link {
       font-size: 2rem;
     }
+
+    small {
+      font-size: 1rem;
+    }
   }
 
   &-content {
@@ -92,36 +97,33 @@ $desktop-up: 1200px;
     justify-content: center;
     text-align: center;
 
-    &__desktopimage {
-      
-      padding-bottom: 2rem;
+    &__media {
+      margin-bottom: 1rem;
 
       img {
-        width: 80%;
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
       }
     }
-    @media only screen and (min-width: $tablet-landscape-up) {
+
+  }
+
+  @media only screen and (min-width: $tablet-landscape-up) {
+
+    &-content {
+      display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       justify-content: space-around;
 
-      &__desktopimage {
-
-        width: 40%;
-
-        img {
-          width: 100%;
-        }
-      }
-
-      &__mobileimage {
-        width: 40%;
+      &__media {
+        flex: 0 1 36%;
+        margin: 1rem;
 
         img {
-          // width: 100%;
+          box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
         }
       }
     }
-
   }
 
   .cta {

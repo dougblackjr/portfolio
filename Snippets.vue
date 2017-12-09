@@ -5,10 +5,12 @@ DATA TEMPLATE
   "namealllowercasenospaces": {
     "name": "",
     "url": "",
-    "image": "",
+    "image": [
+        "",
+        ""
+    ],
     "mobileimage": "",
     "keywords": "",
     "problem": "",
-    "solution": "",
-    "description": ""
+    "solution": ""
   },

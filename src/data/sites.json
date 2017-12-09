@@ -2,61 +2,83 @@
   "aces": {
     "name": "Aces Home Improvement",
     "url": "aceshomeimprovementllc.com",
-    "image": "aces.png",
-    "mobileimage": "aces_mobile.png",
+    "media": [
+      "aces.png",
+      "aces2.png",
+      "aces3.png",
+      "aces4.png"
+    ],
     "keywords": "Grav, PHP, mobile-first, responsive",
     "problem": "This site needed something modern that looked good on mobile devices, that really showcased the quality work that was being done",
-    "solution": "Using a simple content management system, I built a site with lots of lightweight graphics and a custom image gallery that will show the work being done in different arenas. Along with the custom design, I created custom hosting that provides 99.9% uptime.",
-    "description": "Home improvement site, simple contact form, custom image gallery and admin backend"
+    "solution": "Using a simple content management system, I built a site with lots of lightweight graphics and a custom image gallery that will show the work being done in different arenas. Along with the custom design, I created custom hosting that provides 99.9% uptime."
   },
   "dougblackjr": {
     "name": "Doug Black",
     "url": "dougblackjr.com",
-    "image": "dougblackjr.png",
-    "mobileimage": "dougblackjr_mobile.png",
+    "media": [
+      "dougblackjr.png",
+      "dougblackjr2.png",
+      "dougblackjr3.png",
+      "dougblackjr4.png"
+    ],
     "keywords": "HTML5, side scroll, CSS3, mobile-first, responsive",
     "problem": "I needed a landing page that told who I was, and showed what I could do with a keyboard!",
-    "solution": "With a simple, side-scrolling design, I created a quick-loading static site with contact form.",
-    "description": "Custom site from scratch, simple contact form"
+    "solution": "With a simple, side-scrolling design, I created a quick-loading static site with contact form."
   },
   "ngu": {
     "name": "Never Give Up",
     "url": "nevergiveuppa.com",
-    "image": "ngu.png",
-    "mobileimage": "ngu_mobile.png",
-    "keywords": "HTML5, CSS3, mobile-first, responsive, video background",
+    "media": [
+      "ngu.png",
+      "ngu2.png",
+      "ngu3.png",
+      "ngu4.png"
+    ],
+    "keywords": "HTML5, CSS3, mobile-first, responsive, video background, JSON-LD, SEO",
     "problem": "NGU's site was outdated, and reflected poorly on the important work this community group was doing. NGU didn't have a ton of money to spend.",
-    "solution": "I created a simple static site that would look good on the lowest quality devices, so everyone who needed help could find it. I also provided quality SEO, utilizing JSON-LD, and custom hosting!",
-    "description": "Custom site from scratch, created video background"
+    "solution": "I created a simple static site that would look good on the lowest quality devices, so everyone who needed help could find it. The custom design I created utilized an engaging video background for the front page. I also provided quality SEO, utilizing JSON-LD, and custom hosting!"
   },
   "joeritchie": {
     "name": "Joe Ritchie General Contractor",
     "url": "joeritchiegeneralcontractor.net",
-    "image": "joe.png",
-    "mobileimage": "joe2.png",
+    "media": [
+      "joe.png",
+      "joe2.png",
+      "joe3.png",
+      "joe4.png",
+      "joe5.png"
+    ],
     "keywords": "HTML5, CSS3, mobile-first, responsive, custom plugin",
     "problem": "Joe's site was old, and ran off of an extremely outdated platform. The logo was 100px bitmap that needed to be redone so it would look good at any size.",
-    "solution": "I made this site to be one page, load quick on all devices, and have a clear call to action. The logo was redone from scratch as a vector, for use on any medium.",
-    "description": "Custom site from scratch, custom image gallery and contact form"
+    "solution": "I made this site to be one page, load quick on all devices, and have a clear call to action. The logo was redone from scratch as a vector, for use on any medium, and I added a customizable Javascript image gallery."
   },
   "evangel": {
     "name": "Evangel Assembly of God",
     "url": "theevangelhope.com",
-    "image": "evangel.png",
-    "mobileimage": "evangelmobile.png",
+    "media": [
+      "evangel.png",
+      "evangel2.png",
+      "evangel3.png",
+      "evangel4.png",
+      "evangel5.png"
+    ],
     "keywords": "Wordpress, custom theme, podcast, training",
     "problem": "This church had an old, static site that had not been updated in some time. The media took up a huge amount of space and cost way too much. They also needed something simple, so any person from their congregation could be trained to manage it as they deemed fit.",
-    "solution": "I created a Wordpress site with a simple, structured backend, and trained individuals in management. I also added some image and audio editing practices and scripts to help manage the size of the site.",
-    "description": "Custom Wordpress site, custom theming, added podcast capabilities with recording and automatic audio editing. Trained staff to take over administration"
+    "solution": "I created a Wordpress site with a simple, structured backend, and trained individuals in management. I also added some image and audio editing practices and scripts to help manage the size of the site."
   },
   "nurseryalert": {
     "name": "Nursery Alert",
     "url": "nurseryalert.net",
-    "image": "",
-    "mobileimage": "",
+    "media": [
+      "nurseryalert.png",
+      "nurseryalert2.png",
+      "nurseryalert3.png"
+    ],
+    "video": [
+      "https://www.youtube.com/watch?v=RT2K572HghU"
+    ],
     "keywords": "mobile, app, iOS, Android, Kindle, Windows Phone, Ionic",
     "problem": "My wife and I visited a church, and their super expensive nursery beeper system failed twice. We simply asked: 'Why don't they just text us?'",
-    "solution": "I created, built, and marketed a mobile app that would track kids in rooms, and allow workers to notify parents via SMS text with one touch!",
-    "description": ""
+    "solution": "I created, built, and marketed a mobile app that would track kids in rooms, and allow workers to notify parents via SMS text with one touch!"
   }
 }
