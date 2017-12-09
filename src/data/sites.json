@@ -34,7 +34,7 @@
       "ngu3.png",
       "ngu4.png"
     ],
-    "keywords": "HTML5, CSS3, mobile-first, responsive, video background",
+    "keywords": "HTML5, CSS3, mobile-first, responsive, video background, JSON-LD, SEO",
     "problem": "NGU's site was outdated, and reflected poorly on the important work this community group was doing. NGU didn't have a ton of money to spend.",
     "solution": "I created a simple static site that would look good on the lowest quality devices, so everyone who needed help could find it. The custom design I created utilized an engaging video background for the front page. I also provided quality SEO, utilizing JSON-LD, and custom hosting!"
   },
