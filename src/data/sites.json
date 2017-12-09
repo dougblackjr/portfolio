@@ -70,10 +70,12 @@
     "name": "Nursery Alert",
     "url": "nurseryalert.net",
     "media": [
-      "https://www.youtube.com/watch?v=RT2K572HghU",
       "nurseryalert.png",
       "nurseryalert2.png",
       "nurseryalert3.png"
+    ],
+    "video": [
+      "https://www.youtube.com/watch?v=RT2K572HghU"
     ],
     "keywords": "mobile, app, iOS, Android, Kindle, Windows Phone, Ionic",
     "problem": "My wife and I visited a church, and their super expensive nursery beeper system failed twice. We simply asked: 'Why don't they just text us?'",
