@@ -98,7 +98,11 @@ $desktop-up: 1200px;
     text-align: center;
 
     &__media {
-      padding-bottom: 1rem;
+      margin-bottom: 1rem;
+
+      img {
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+      }
     }
 
   }
@@ -113,7 +117,11 @@ $desktop-up: 1200px;
 
       &__media {
         flex: 0 1 36%;
-        padding: 1rem;
+        margin: 1rem;
+
+        img {
+          box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+        }
       }
     }
   }
