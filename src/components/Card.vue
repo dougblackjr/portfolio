@@ -12,7 +12,7 @@ export default {
   props: ['project', 'project_id'],
   data () {
     return {
-      imgSrc: require(`../assets/sites/${this.project.image}`)
+      imgSrc: require(`../assets/sites/${this.project.media[0]}`)
     }
   }
 }
