@@ -80,5 +80,17 @@
     "keywords": "mobile, app, iOS, Android, Kindle, Windows Phone, Ionic",
     "problem": "My wife and I visited a church, and their super expensive nursery beeper system failed twice. We simply asked: 'Why don't they just text us?'",
     "solution": "I created, built, and marketed a mobile app that would track kids in rooms, and allow workers to notify parents via SMS text with one touch!"
+  },
+  "csm": {
+    "name": "CSM Salesforce Implementation",
+    "url": "https://csm.secure.force.com/",
+    "media": [
+      "csm1.png",
+      "csm2.png",
+      "csm3.png"
+    ],
+    "keywords": "Salesforce, Apex, development, Bootstrap",
+    "problem": "The original developer stopped communicating, leaving this app only half working and a mess!",
+    "solution": "I stepped in, fixed the entirety of CSM's Salesforce implementation, added custom login and fixed the user authorization"
   }
 }
