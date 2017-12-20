@@ -1,8 +1,10 @@
 <template>
   <div class="card">
     <router-link :to="{ path: '/project', query: { projectId: project_id } }">
-  		<img v-bind:src="imgSrc">
-  	</router-link>
+  	  <transition name="fade">
+        <img v-bind:src="imgSrc">
+      </transition>
+	 </router-link>
   </div>
 </template>
 
@@ -49,6 +51,13 @@ $desktop-up: 1200px;
 			margin-bottom: 3rem;
 		}
 	}
+
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0
+  }
 
 }
 </style>
