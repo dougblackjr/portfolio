@@ -7,6 +7,7 @@
         <li><a target="_blank" href="http://linkedin.com/in/dougblackjr2">Linkedin</a></li>
         <li><a target="_blank" href="http://www.twitter.com/dougblackjr">Twitter</a></li>
         <li><a target="_blank" href="http://dougblackjr.com#contact">Email</a></li>
+        <li><a target="_blank" href="https://earn.com/dougblackjr/">Ask a Question</a></li>
         <li><a target="_blank" href="https://www.dropbox.com/s/y56z9es0sl41xpf/resume_doug_black.pdf?dl=0">Resume</a></li>
       </ul>
       <p>I make machines serve their human masters, typically with web and mobile applications! Skilled in: PHP, ExpressionEngine, Laravel, Wordpress, Vue.js, Javascript, Ionic/Angular, Salesforce Development (Apex) and various others. If you have a problem, I can solve it.</p>
